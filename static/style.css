@@ -1,0 +1,209 @@
+/*  Simple Yelp Styling
+    Author: Daichi Ishikawa
+    Written for One Month Python: Week 4 Assignment
+*/
+
+
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    text-transform: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.intro-body h1 {
+  font-size: 38px;
+  text-align: left;
+  color: #fff;  
+}
+
+.intro-body p {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.navbar {
+    padding: 15px;
+    margin-bottom: 0;
+    border: none;
+    text-transform: none;
+    background-color: transparent;
+    background-image: none;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-weight: 200;
+  font-size: 35px;
+}
+
+.hero-intro {
+    background: url(https://images.unsplash.com/photo-1484863083876-c0bf99ddaa61?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=) no-repeat top center scroll; /* Local link must fix to FTP before pushing */
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+}
+
+.hero-intro-results {
+    background: url(https://images.unsplash.com/photo-1484863083876-c0bf99ddaa61?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=) no-repeat top center scroll; /* Local link must fix to FTP before pushing */
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.intro-body {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: table-cell;
+    vertical-align: middle;
+     display: table;
+    width: 100%;
+    height: auto;
+    padding: ;
+    text-align: center;
+    color: #fff;
+}
+
+.btn-primary {
+  text-transform: none;
+  padding: .75rem 1.5rem;
+  background-color: #F22E2E;
+  border-color: #F22E2E;
+  font-size: 1.15rem;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+}
+
+.btn-primary:hover{
+  background-color: #a00404;
+  border-color: #a00404;
+}
+
+.btn-secondary {
+  text-transform: none;
+  padding: .75rem 1.5rem;
+  color: #F22E2E;
+  background-color: none;
+  border-color: #F22E2E;
+  font-size: 1.15rem;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+}
+
+.btn-secondary:hover{
+  background-color: none;
+  border-color: #a00404;
+  color: #a00404;
+}
+
+.form-control-lg {
+  padding: .75rem 1.75rem;
+  font-size: 1.15rem;
+  border-radius: .3rem;
+}
+
+.body {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.body p, h1, h2, h4, a {
+  color: #333;
+  text-align: left;
+}
+
+.non-button a {
+  padding-top: 0px;
+}
+
+.body h2 {
+  font-size: 24px;
+}
+
+.modal-body {
+    padding: 0px;
+}
+
+.card-footer {
+    padding: .75rem 1.25rem;
+    background-color: #f7f7f9;
+    border-top: 0px;
+}
+
+
+.footer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: -webkit-linear-gradient(90deg,rgb(23, 23, 23) 75%, #0e0e0e 100%);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.footer-text {
+  color: #565656;
+  font-size: 16px;
+  padding-top: 20px; 
+  text-align: right;
+}
+
+.footer-text a {
+  color: #a2a2a2;
+}
+
+.footer a:hover {
+  color: #565656;
+}
+
+
+
+
+
+
+
+
+
+
