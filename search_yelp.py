@@ -8,6 +8,7 @@ from geopy.geocoders import Nominatim
 from yelp_api import yelp_search
 import forecastio
 import json
+import os
 from os import environ
 from dotenv import load_dotenv, find_dotenv
 
@@ -44,7 +45,8 @@ def index():
 
 
 if __name__ == "__main__":
-	app.run()
+	port = int(os.environ.get("PORT", 5000))
+	app.run(host="0.0.0.0", port = port)
 
 
 
