@@ -4,9 +4,7 @@
 
 
 from flask import Flask, render_template, request
-from geopy.geocoders import Nominatim
 from yelp_api import yelp_search
-import forecastio
 import json
 import os
 from os import environ
